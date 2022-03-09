@@ -5,9 +5,17 @@ This is Backend API server Repository
 # 헤리티지(Heritage)
 
 <p>
-<img width="330px;" src="https://user-images.githubusercontent.com/79829085/154243769-3abb95c8-370f-46ea-ac12-4b791f9c09f1.png" alt="" align="left" >
+<img width="300px;" height="300px;"src="https://user-images.githubusercontent.com/79829085/157434363-ccc85765-39b2-403c-9844-16f3dceba2fd.png" alt="" align="left" >
 <h3> `헤리티지(Heritage)'인 이유</h3>
 <p> 부르디외의 문화자본론에 의하면, 사회적 위치는 경제자본 뿐 아니라 문화 자본에 따라 결정되며, 이에 따라 생활양식이 달라진다고 하였다. 문화소비는 사회집단의 표식처럼 기능하므로 상층 계급간의 상호면식, 교류 및 결속이 수월해지면서 이들 집단의 자본의 우위가 더욱 다져지게 된다.<br><br>우리 팀은, (문화자본론에서 말하는 문화 소비의 개념에 의거하여) 다양한 계층의  수평적 문화 소통의 가상 공간을 만들고자 한다. 이로 인해 특정 계급의 위계적 문화(혹은 고급/ 대중 문화)가 아닌 모두가 향유하고 소통하는 모두의 수평적 문화의 장을 만들고자 한다.<br>프로젝트의 이름은 cultural heritage에서 따와 ‘헤리티지’라고 지었다.</p>
+
+***
+
+<br>
+
+<img width="250px;" src="https://user-images.githubusercontent.com/79829085/157434405-dd98d0f1-604c-4d6d-aee3-23138e33ee7f.png" alt="" >&nbsp;&nbsp;&nbsp;<img width="120px;" height="250" src="https://user-images.githubusercontent.com/79829085/157434453-8dad7c06-406e-45dc-900a-25d326fd3983.png" alt="" >&nbsp;&nbsp;<img width="380px;" height="250" src="https://user-images.githubusercontent.com/79829085/157437164-6fe989da-1ab1-46c0-a17f-77b3b7c4f30c.png" alt="" >&nbsp;&nbsp;<img width="130px;" height="250" src="https://user-images.githubusercontent.com/79829085/157437431-c967d03d-3ba1-4784-a545-0f32ba6c4b37.png" alt="" >
+
+<br>
 
 ***
 
@@ -57,7 +65,7 @@ This is Backend API server Repository
 
 * __CREATE__ : 필수 내용을 기입 후 글 쓰기 버튼을 통해 새 글 작성
 
-* __GET__ : 메인 페이지 입장 및 create, update, delete 등을 수행한 후 DB에 저장된 글들을 출력
+* __GET__ : 전체 글 조회, 선택 글 조회, 좋아요 수 상위 3개 글 조회
 
 * __UPDATE__ : 선택한 글의 수정 버튼을 클릭하여 내용 수정, 좋아요 버튼을 누를 때 해당 게시글의 좋아요 수 증가
 
@@ -81,14 +89,6 @@ This is Backend API server Repository
 
 <img src="https://user-images.githubusercontent.com/79829085/154250328-9adf8e9b-bf8c-4870-8c0c-0f7cc55f347a.png" alt="">
 
-## 9. 백엔드 추가 자료 (추가 예정)
-
-### 1) 도메인 클래스 다이어 그램 (백엔드)
-
-`프론트는 웹 UI 넣을 것`, `IOS는 앱 UI넣을 것`
-
-### 2) ERD
-
 <br>
 
 ## 8. 활용 기술 스택
@@ -97,16 +97,17 @@ This is Backend API server Repository
  * HTML5
  * CSS3
  * JavaScript
+ * Jquery
 
 ### Backend
- * Jdk 11.0.12
- * spring 2.6.3 
- * graddle
+ * Jdk 11
+ * spring 2.6.4
+ * gradle
+ * lombok
  * rest
  * junit5
  * Spring data JPA
  * H2database
- * MySQL(추후)
 
 ### IOS
  * Swift
